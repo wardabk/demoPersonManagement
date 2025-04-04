@@ -1,38 +1,16 @@
-### IntelliJ IDEA ###
+# Fichiers compilés Java
+*.class
+
+# Répertoires de sortie compilés (IntelliJ, Eclipse, etc.)
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+bin/
+
+# Fichiers IntelliJ IDEA
 .idea/
 *.iml
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings/
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-nbproject/private/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### macOS ###
+# Fichiers système macOS
 .DS_Store
 
-### Fichiers compilés Java ###
-*.class
-
-### Répertoires de sortie compilés ###
-out/
-bin/
+# VS Code
+.vscode/
