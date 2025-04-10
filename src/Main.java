@@ -8,10 +8,15 @@ public class Main {
         System.out.println(directeur);
         directeur.poserConges();
 
+
+        Employe employe1 = new Employe("Ben Ali", "Myriam", 24);
+        Employe employe2 = new Employe("Mejri", "Ahmed", 30);
+        Employe employe3 = new Employe("Ben Ali", "Myriam", 24);
+
         // Ajout d'employés par le directeur
-        directeur.addEmploye(new Employe("Ben Ali", "Myriam", 24));
-        directeur.addEmploye(new Employe("Mejri", "Ahmed", 30));
-        directeur.addEmploye(new Employe("Diallo", "Ameline", 28));
+        directeur.addEmploye(employe1);
+        directeur.addEmploye(employe2);
+        directeur.addEmploye(employe3);
 
         //afficher les employés
         directeur.showEmployes();
