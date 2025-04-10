@@ -14,3 +14,6 @@ bin/
 
 # VS Code
 .vscode/
+
+.gitignore
+untitled.iml
